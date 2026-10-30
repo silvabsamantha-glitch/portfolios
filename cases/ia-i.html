@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ia.i: Inteligência Artificial do Itaú | Elísia Amaral</title>
+  <meta name="description" content="Meu trabalho de design de conteúdo na ia.i: voz, limites e casos difíceis de um assistente com IA generativa.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700;800&amp;display=swap">
+  <link rel="stylesheet" href="../assets/css/tokens.css">
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo principal</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="site-header__home" href="../index.html">Elísia Amaral</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">
+        <span class="nav-toggle__icon" aria-hidden="true"></span>
+        Menu
+      </button>
+      <nav class="site-nav" id="menu-principal" aria-label="Principal">
+        <ul class="site-nav__list">
+          <li><a class="site-nav__link" href="../index.html#destaques">Destaques</a></li>
+          <li><a class="site-nav__link" href="../index.html#trajetoria">Trajetória</a></li>
+          <li><a class="site-nav__link" href="../index.html#outros-cases">Outros cases</a></li>
+          <li><a class="site-nav__link" href="../index.html#sobre">Sobre</a></li>
+          <li><a class="site-nav__link" href="../index.html#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <article class="container">
+
+      <!-- CAMPOS ESTRUTURADOS: futuro CMS -->
+      <!-- Título, período, tags, resumo do card, papel e time. O card da página inicial repete título, período, tags e resumo: manter iguais. -->
+      <header class="case-header">
+        <a class="case-header__voltar" href="../index.html">Voltar à página inicial</a>
+        <h1 class="case-header__titulo" data-campo="titulo" data-origem="briefing">ia.i: Inteligência Artificial do Itaú</h1>
+        <p class="case-header__periodo" data-campo="periodo" data-origem="briefing">2026, em andamento</p>
+        <ul class="tags" data-campo="tags" aria-label="Temas do case">
+          <li>Experiência conversacional</li>
+          <li>Assistente com IA generativa</li>
+          <li>Padrões de conversa</li>
+        </ul>
+        <div data-campo="resumo">
+        <div class="placeholder placeholder--compacto" data-placeholder="ia-i-resumo">
+  <p class="placeholder__rotulo">Texto pendente</p>
+  <p class="placeholder__pergunta">Resumo do card: em uma frase, que problema este projeto resolveu e qual foi a sua parte nele?</p>
+</div>
+        </div>
+
+        <h2 class="visually-hidden">Contexto</h2>
+        <dl class="contexto">
+          <div class="contexto__item">
+            <dt>Meu papel</dt>
+            <dd data-campo="papel"><span data-origem="briefing">Content design</span></dd>
+          </div>
+          <div class="contexto__item">
+            <dt>Time</dt>
+            <dd data-campo="time"><div class="placeholder placeholder--compacto" data-placeholder="ia-i-time">
+  <p class="placeholder__rotulo">Texto pendente</p>
+  <p class="placeholder__pergunta">Com quais áreas e papéis você trabalhou neste projeto?</p>
+</div></dd>
+          </div>
+          <div class="contexto__item">
+            <dt>Período</dt>
+            <dd data-origem="briefing">2026, em andamento</dd>
+          </div>
+          <div class="contexto__item contexto__item--largo">
+            <dt>O que posso e o que não posso mostrar</dt>
+            <dd><span data-origem="briefing">Com restrições: nenhum número para o público externo ao Itaú.</span></dd>
+          </div>
+        </dl>
+<ul class="termo-explicado" data-origem="glossario">
+  <li><dfn>Content design</dfn>: desenhar o conteúdo de uma experiência a partir do que as pessoas precisam entender e fazer.</li>
+</ul>
+      </header>
+      <!-- FIM DOS CAMPOS ESTRUTURADOS -->
+
+      <section class="case-section" aria-labelledby="ia-i-importa">
+        <h2 id="ia-i-importa">Por que este projeto importa</h2>
+        <p data-origem="briefing">Em 2026, o Itaú apresentou a ia.i, assistente de IA generativa que conversa por texto ou voz e considera o contexto de cada cliente. Num assistente roteirizado, o conteúdo é escrever a resposta certa para cada pergunta. Num assistente generativo, o conteúdo passa a ser o comportamento: a voz, os limites e o que acontece nos casos difíceis. É aí que atuo: voice prompt, guardrails e corner cases.</p>
+        <ul class="termo-explicado" data-origem="glossario">
+  <li><dfn>IA generativa</dfn>: inteligência artificial que cria uma resposta nova a cada conversa, em vez de escolher entre respostas escritas antes.</li>
+  <li><dfn>Assistente roteirizado</dfn>: assistente que segue respostas e caminhos escritos com antecedência para cada pergunta.</li>
+  <li><dfn>Voice prompt</dfn>: as instruções escritas que definem como o assistente fala, com que tom, quais palavras usa e como conduz a conversa.</li>
+  <li><dfn>Guardrails</dfn>: os limites do assistente, ou seja, o que ele não deve dizer nem fazer.</li>
+  <li><dfn>Corner cases</dfn>: situações raras ou delicadas, que fogem do caminho mais comum de uma conversa.</li>
+</ul>
+      </section>
+      <section class="case-section" aria-labelledby="ia-i-problema">
+        <h2 id="ia-i-problema">Problema</h2>
+        <p data-origem="briefing">As conversas do assistente não seguiam um padrão, e não havia diretrizes conversacionais. Isso gerava experiências inconsistentes para o cliente.</p>
+      </section>
+      <section class="case-section" aria-labelledby="ia-i-fiz">
+        <h2 id="ia-i-fiz">O que eu fiz</h2>
+        <p data-origem="briefing">Defini o voice prompt, a governança de conteúdo, a aplicação consistente da marca, os guardrails e os corner cases, além da anatomia de uma boa conversa.</p>
+        <ul class="termo-explicado" data-origem="glossario">
+  <li><dfn>Governança de conteúdo</dfn>: os padrões de voz, marca e qualidade que todo conteúdo precisa seguir, e quem cuida deles.</li>
+</ul>
+      </section>
+      <section class="case-section" aria-labelledby="ia-i-processo">
+        <h2 id="ia-i-processo">Processo em etapas</h2>
+        <div class="placeholder" data-placeholder="ia-i-processo">
+  <p class="placeholder__rotulo">Texto pendente</p>
+  <p class="placeholder__pergunta">Como você chegou ao padrão conversacional? Liste as etapas na ordem em que aconteceram, uma por linha, em primeira pessoa.</p>
+</div>
+      </section>
+      <section class="case-section" aria-labelledby="ia-i-decisoes">
+        <h2 id="ia-i-decisoes">Decisões e motivos</h2>
+        <div class="placeholder" data-placeholder="ia-i-decisoes">
+  <p class="placeholder__rotulo">Texto pendente</p>
+  <p class="placeholder__pergunta">Que escolhas você fez ao definir a voz, os limites e os casos difíceis do assistente? Para cada uma, qual foi o motivo, em uma frase?</p>
+</div>
+      </section>
+      <section class="case-section" aria-labelledby="ia-i-antes-depois-titulo">
+        <h2 id="ia-i-antes-depois-titulo">Antes e depois</h2>
+        <div class="placeholder" data-placeholder="ia-i-antes-depois">
+  <p class="placeholder__rotulo">Texto pendente</p>
+  <p class="placeholder__pergunta">Qual conversa mostra melhor a diferença antes e depois do padrão? Escreva a mesma conversa simulada nas duas versões.</p>
+</div>
+        <div class="comparativo">
+          <section class="conversa" aria-labelledby="ia-i-conversa-antes">
+            <h3 class="conversa__titulo" id="ia-i-conversa-antes">Antes</h3>
+            <p class="comparativo__aviso">Conversa simulada, sem dados reais de clientes</p>
+            <ol class="conversa__falas">
+              <li class="fala fala--cliente"><span class="fala__autor">Cliente</span><p class="fala__texto"><span class="placeholder placeholder--inline" data-placeholder="ia-i-antes-fala-cliente">Fala simulada a escrever</span></p></li>
+              <li class="fala fala--assistente"><span class="fala__autor">Assistente</span><p class="fala__texto"><span class="placeholder placeholder--inline" data-placeholder="ia-i-antes-fala-assistente">Fala simulada a escrever</span></p></li>
+            </ol>
+          </section>
+          <section class="conversa" aria-labelledby="ia-i-conversa-depois">
+            <h3 class="conversa__titulo" id="ia-i-conversa-depois">Depois</h3>
+            <p class="comparativo__aviso">Conversa simulada, sem dados reais de clientes</p>
+            <ol class="conversa__falas">
+              <li class="fala fala--cliente"><span class="fala__autor">Cliente</span><p class="fala__texto"><span class="placeholder placeholder--inline" data-placeholder="ia-i-depois-fala-cliente">Fala simulada a escrever</span></p></li>
+              <li class="fala fala--assistente"><span class="fala__autor">Assistente</span><p class="fala__texto"><span class="placeholder placeholder--inline" data-placeholder="ia-i-depois-fala-assistente">Fala simulada a escrever</span></p></li>
+            </ol>
+          </section>
+        </div>
+      </section>
+      <section class="case-section" aria-labelledby="ia-i-aprendizados">
+        <h2 id="ia-i-aprendizados">Aprendizados</h2>
+        <div class="placeholder" data-placeholder="ia-i-aprendizados">
+  <p class="placeholder__rotulo">Texto pendente</p>
+  <p class="placeholder__pergunta">Em que momento você mudou de rumo neste projeto? O que te fez mudar?</p>
+</div>
+      </section>
+      <section class="case-section" aria-labelledby="ia-i-mudou">
+        <h2 id="ia-i-mudou">O que mudou para quem usa e para a empresa</h2>
+        <p data-origem="briefing">Em fase de apuração.</p>
+        <div class="placeholder" data-placeholder="ia-i-mudou">
+  <p class="placeholder__rotulo">Texto pendente</p>
+  <p class="placeholder__pergunta">O que já mudou para quem conversa com a ia.i e para a empresa? Descreva com fatos, sem números.</p>
+</div>
+      </section>
+    </article>
+
+    <nav class="container case-nav" aria-label="Navegação entre cases">
+      <ul class="case-nav__list">
+        <li><a class="case-nav__link" href="../index.html"><span class="case-nav__rotulo">Início</span> <span class="case-nav__titulo">Voltar à página inicial</span></a></li>
+        <li><a class="case-nav__link" href="jornadas-prg.html"><span class="case-nav__rotulo">Próximo case</span> <span class="case-nav__titulo">Jornadas Resolutivas PRG do Assistente Virtual do Itaú</span></a></li>
+      </ul>
+    </nav>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Elísia Amaral, design de conteúdo. <a href="#conteudo">Voltar ao início do conteúdo</a></p>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>
